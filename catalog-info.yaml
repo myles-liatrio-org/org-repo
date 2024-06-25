@@ -1,17 +1,3 @@
-# apiVersion: backstage.io/v1alpha1
-# kind: User
-# metadata:
-#   name: myles-coleman
-# spec:
-#   memberOf: [guests]
-# ---
-# apiVersion: backstage.io/v1alpha1
-# kind: User
-# metadata:
-#   name: bill-bobby
-# spec:
-#   memberOf: [guests]
-# ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
