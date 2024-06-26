@@ -1,0 +1,10 @@
+site_name: 'example-docs'
+
+nav:
+  - Home: index.md
+  - Getting Started: getting-started.md
+
+plugins:
+  - techdocs-core
+
+  
