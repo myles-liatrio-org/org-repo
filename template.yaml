@@ -1,8 +1,8 @@
 apiVersion: scaffolder.backstage.io/v1beta3
 kind: Template
 metadata:
-  name: demo-template-url
-  title: Demo Template Type-URL
+  name: demo-template
+  title: Demo Template
   description: A demo template for creating a new component
   tags:
     - demo
