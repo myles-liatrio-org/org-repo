@@ -1,12 +1,16 @@
 apiVersion: backstage.io/v1alpha1
-kind: Template
+kind: Component
 metadata:
-  name: my-template
+  name: detect-me-automatically
+  description: This is a service to be automatically picked up by Backstage
+  annotations:
+    backstage.io/techdocs-ref: dir:.
+  
+  tags:
+    - tag
+    - updated1
 spec:
-  path: ./template.yaml
   type: service
-  steps:
-    - id: fetch
-      name: Fetch
-      action: fetch:template
-    # Add other steps as needed
+  owner: stribble-backstage
+  lifecycle: experimental
+  system: user-management
